@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    background: hsl(185, 75%, 39%);
+    height: 120px;
+  }
+  
+  .profile {
+    margin-top: -60px;
+  }
+  
+  .profile-img {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+  }
+  
+  .name span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+  }
+  
+  .location {
+    font-size: 1rem;
+    color: hsl(0, 0%, 59%);
+    margin: 5px 0 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-top: 1px solid hsl(227, 10%, 46%);
+  }
+  
+  .stat-number {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+  }
+  
+  .stat-label {
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 59%);
+  }
